@@ -1,0 +1,86 @@
+.auth_body{
+    background: #92BE3D;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+}
+.logo_img{
+    height: 10%;
+}
+#auth_form{
+    background: #FFFFFF;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 10%;
+    border-radius: 23px;
+    padding-top: 0.04%;
+    padding-bottom: 1%;
+}
+#auth_form div{
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    display: block;
+}
+#auth_form p{
+    color: #828181;
+    font-family: Inter;
+    font-size: 15px;
+}
+#auth_form input{
+    width: 100%;
+    border: none;
+    outline:none;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 1px;
+    border-bottom: 2px solid #92BE3D;
+}
+.button_next{
+    border: none;
+    border-radius: 1000px;
+    background: #92BE3D;
+    padding: 2% 5%;
+    width: 40%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+.button_next img{
+    height: 70%;
+}
+#auth_form span{
+    font-size: 13px;
+    text-align: center;
+    color: #929191;
+}
+#error_field{
+    color: red;
+    font-size: 14px;
+    font-weight: normal;
+    display: none;
+}
+#modal{
+    background-color: #FFFFFF;
+    width: 20%;
+    padding: 10px;
+    text-align: right;
+    position: absolute;
+    left: 39.5%;
+    right: 40%;
+    border-radius: 10px;
+    display: none;
+    top: 8%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    z-index: 4;
+}
+#modal h4{
+    text-align: center;
+    font-weight: normal;
+}
